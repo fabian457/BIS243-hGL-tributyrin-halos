@@ -4,8 +4,8 @@
 .RData
 Rplots.pdf
 
-# Files made by the script (run the script to recreate them)
+# Files made by the script, apart from the chart
 outputs/*
-!outputs/.gitkeep
+!outputs/halo_width_plot.png
 
 .DS_Store
