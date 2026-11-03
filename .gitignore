@@ -1,0 +1,11 @@
+# RStudio files that are personal to each user
+.Rproj.user/
+.Rhistory
+.RData
+Rplots.pdf
+
+# Files made by the script (run the script to recreate them)
+outputs/*
+!outputs/.gitkeep
+
+.DS_Store

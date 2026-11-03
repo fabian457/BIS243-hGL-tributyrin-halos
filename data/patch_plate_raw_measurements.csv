@@ -1,0 +1,33 @@
+pair,plate_medium,patch_no,sample_type,Zone-diameter-a,Zone-diameter-b,Zone-diameter-c,patch-diameter-a,patch-diameter-b,patch-diameter-c,mean-zone-diameter,mean-patch-diameter
+HF,methanol,1,wild_type,11,10,10,9,8,8,10.333333333333334,8.333333333333334
+HF,methanol,2,transformant,13,13,13,7,7,7,13,7
+HF,methanol,3,transformant,15,15,15,8,8,9,15,8.333333333333334
+HF,methanol,4,transformant,13,13,12,7,7,7,12.666666666666666,7
+HF,methanol,5,transformant,14,13,13,8,7,8,13.333333333333334,7.666666666666667
+HF,methanol,6,transformant,8,7,7,6,5,5,7.333333333333333,5.333333333333333
+HF,methanol,7,positive control,12,12,11,7,6,6,11.666666666666666,6.333333333333333
+HF,methanol,8,negative control,10,10,9,8,7,7,9.666666666666666,7.333333333333333
+HF,glucose,1,wild_type,10,12,9,9,10,7,10.333333333333334,8.666666666666666
+HF,glucose,2,transformant,8,7,8,7,5,5,7.666666666666667,5.666666666666667
+HF,glucose,3,transformant,11,10,11,8,9,9,10.666666666666666,8.666666666666666
+HF,glucose,4,transformant,10,9,9,9,8,8,9.333333333333334,8.333333333333334
+HF,glucose,5,transformant,9,10,11,8,8,8,10,8
+HF,glucose,6,transformant,9,11,8,8,9,7,9.333333333333334,8
+HF,glucose,7,positive control,7,8,8,6,7,6,7.666666666666667,6.333333333333333
+HF,glucose,8,negative control,12,9,10,11,8,8,10.333333333333334,9
+EJ,methanol,1,wild_type,10,11,11,8,7,9,10.666666666666666,8
+EJ,methanol,2,transformant,15,14,14,7,8,8,14.333333333333334,7.666666666666667
+EJ,methanol,3,Transformant,14,14,14,8,8,9,14,8.333333333333334
+EJ,methanol,4,Transformant,13,13,13,9,9,8,13,8.666666666666666
+EJ,methanol,5,Transformant,14,13,14,9,8,9,13.666666666666666,8.666666666666666
+EJ,methanol,6,Transformant,13,15,12,9,9,7,13.333333333333334,8.333333333333334
+EJ,methanol,7,Positive control,16,13,12,10,7,7,13.666666666666666,8
+EJ,methanol,8,Negative control,8,7,8,7,6,7,7.666666666666667,6.666666666666667
+EJ,glucose,1,Wild_type,9,10,10,8,8,8,9.666666666666666,8
+EJ,glucose,2,Transformant,10,10,10,8,9,7,10,8
+EJ,glucose,3,Transformant,10,10,11,8,8,8,10.333333333333334,8
+EJ,glucose,4,Transformant,10,12,10,8,10,8,10.666666666666666,8.666666666666666
+EJ,glucose,5,Transformant,11,12,9,9,10,8,10.666666666666666,9
+EJ,glucose,6,Transformant,10,10,11,9,8,9,10.333333333333334,8.666666666666666
+EJ,glucose,7,Positive control,14,10,11,12,9,9,11.666666666666666,10
+EJ,glucose,8,Negative control,9,9,8,8,8,6,8.666666666666666,7.333333333333333
