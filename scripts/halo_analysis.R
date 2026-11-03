@@ -8,7 +8,7 @@
 #   3. Makes a bar chart and saves it to the outputs folder
 #
 # How to run it:
-#   1. Open Shared-halo-data.Rproj in RStudio (this sets the working
+#   1. Open BIS243-hGL-tributyrin-halos.Rproj in RStudio (this sets the working
 #      folder, so the file paths below work on everyone's computer)
 #   2. Open this script (scripts/halo_analysis.R)
 #   3. Click "Source" (top right of the script panel) to run it all,
