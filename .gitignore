@@ -6,7 +6,6 @@ Rplots.pdf
 
 # Files made by the scripts, apart from the charts
 outputs/*
-!outputs/halo_width_plot.png
 !outputs/halo_paired_plot.png
 
 .DS_Store

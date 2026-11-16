@@ -2,15 +2,18 @@
 # Patch plate halo widths
 # BIS243 Experimental Skills - shared group analysis
 #
+# NOT USED ON THE POSTER. This makes an overview bar chart of every
+# patch. The poster figure comes from scripts/halo_stats.R.
+#
 # What this script does:
 #   1. Loads the mean zone and patch diameters from the data folder
 #   2. Works out the halo width for each patch
-#   3. Makes a bar chart and saves it to the outputs folder
+#   3. Makes a bar chart and saves it to the unused folder
 #
 # How to run it:
 #   1. Open BIS243-hGL-tributyrin-halos.Rproj in RStudio (this sets the working
 #      folder, so the file paths below work on everyone's computer)
-#   2. Open this script (scripts/halo_analysis.R)
+#   2. Open this script (unused/halo_analysis.R)
 #   3. Click "Source" (top right of the script panel) to run it all,
 #      or run it line by line with Ctrl + Enter
 # =====================================================================
@@ -95,10 +98,8 @@ halo_plot
 
 # ---- 6. Save the chart ----------------------------------------------
 
-# Make sure the outputs folder exists (does nothing if it already does)
-dir.create("outputs", showWarnings = FALSE)
-
-ggsave("outputs/halo_width_plot.png", halo_plot,
+# Saved next to this script in the unused folder
+ggsave("unused/halo_width_plot.png", halo_plot,
        width = 20, height = 15, units = "cm", dpi = 300)
 
 
