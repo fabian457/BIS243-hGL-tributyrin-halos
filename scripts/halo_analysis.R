@@ -82,7 +82,8 @@ halo_plot <- ggplot(halo,
   # Colour-blind friendly colours (Okabe-Ito palette)
   scale_fill_manual(values = c("#E69F00", "#0072B2", "#009E73", "#CC79A7")) +
   labs(x = "Patch", y = "Halo width (mm)", fill = NULL) +
-  theme_classic() +
+  # base_size sets the text size; 18 keeps it readable on a poster
+  theme_classic(base_size = 18) +
   theme(legend.position = "bottom",
         # Remove the boxes around the panel labels
         strip.background = element_blank(),
@@ -99,3 +100,7 @@ dir.create("outputs", showWarnings = FALSE)
 
 ggsave("outputs/halo_width_plot.png", halo_plot,
        width = 20, height = 15, units = "cm", dpi = 300)
+
+
+# ---- 7. Statistics --------------------------------------------------
+
